@@ -1,0 +1,284 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background-color: #efefef;
+    font-weight: 400;
+    font-family: 'Molengo', sans-serif;
+}
+
+
+
+h1, h2, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Jockey One', sans-serif;
+
+
+}
+
+h1, h2, h3 {
+    letter-spacing: 0.15rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    margin: 20px 0 0 0;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin: 0 0 0 0;
+    line-height: 2rem;
+}
+
+h3 {
+    font-size: 1.0rem;
+    margin: 0 0 40px 0;
+    line-height: 2rem;
+}
+
+p, a {
+    line-height: 1.4rem;
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact a, #contact a:hover, #contact a:link, #contact a:visited {
+    color: #ff4200;
+}
+
+footer a, footer a:hover, footer a:link, footer a:visited {
+    color: #ccc;
+}
+
+#contact li,
+footer li{
+    display: inline-block;
+}
+
+#contact li.first:after,
+footer li.first:after{
+    content: '·';
+    margin: 0 10px 0 10px;
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+section#info {
+    width: 95%;
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Trebuchet, sans-serif;
+    border-top: 1px solid #ff4200;
+}
+
+#contact ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer
+
+header {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
