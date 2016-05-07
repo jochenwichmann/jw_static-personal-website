@@ -44,6 +44,10 @@ textarea {
     resize: vertical;
 }
 
+a {
+    color: #ff4200;;
+}
+
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
@@ -96,7 +100,7 @@ p, a {
     font-family: 'Roboto', sans-serif;
 }
 
-#contact a, #contact a:hover, #contact a:link, #contact a:visited {
+a, a:hover, a:link, a:visited {
     color: #ff4200;
 }
 
